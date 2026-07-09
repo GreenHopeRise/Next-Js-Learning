@@ -8,6 +8,7 @@ export default async function page() {
         {
             user.map((u:any)=>(
                 <p key={u.id}>{u.name }$$</p>
+                
             ))
         }
     </div>
